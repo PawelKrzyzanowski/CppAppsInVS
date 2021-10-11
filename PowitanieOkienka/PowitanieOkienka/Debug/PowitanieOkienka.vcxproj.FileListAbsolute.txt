@@ -1,0 +1,3 @@
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\PowitanieOkienka\PowitanieOkienka\Debug\PowitanieOkienka.vcxproj.AssemblyReference.cache
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\PowitanieOkienka\PowitanieOkienka\Debug\PowitanieOkienka.Okienko.resources
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\PowitanieOkienka\PowitanieOkienka\Debug\PowitanieOkienka.vcxproj.GenerateResource.cache
