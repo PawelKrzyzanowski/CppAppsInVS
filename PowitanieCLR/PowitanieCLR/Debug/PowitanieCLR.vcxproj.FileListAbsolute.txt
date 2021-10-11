@@ -1,0 +1,2 @@
+C:\Users\p1658\Downloads\materialy_do_kursu\03\03\PowitanieCLR\PowitanieCLR\Debug\PowitanieCLR.vcxproj.AssemblyReference.cache
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\PowitanieCLR\PowitanieCLR\Debug\PowitanieCLR.vcxproj.AssemblyReference.cache
