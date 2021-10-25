@@ -1,0 +1,10 @@
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\bin\Debug\KikCs.exe.config
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\bin\Debug\KikCs.exe
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\bin\Debug\KikCs.pdb
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.csproj.AssemblyReference.cache
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.Properties.Resources.resources
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.csproj.GenerateResource.cache
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.csproj.CoreCompileInputs.cache
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.exe
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.pdb
+C:\Users\p1658\Documents\Visual Studio 2019\CppAppsInVS\KikCs\KikCs\obj\Debug\KikCs.Form1.resources

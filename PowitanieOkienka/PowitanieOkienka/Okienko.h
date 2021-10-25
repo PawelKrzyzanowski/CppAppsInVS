@@ -39,6 +39,8 @@ namespace PowitanieOkienka {
 	private: System::Windows::Forms::TextBox^ myTextBox;
 
 	private: System::Windows::Forms::Button^ myButton;
+	private: System::Windows::Forms::Button^ btnReset;
+
 	protected:
 
 	protected:
@@ -74,6 +76,7 @@ namespace PowitanieOkienka {
 			this->myPictureBox = (gcnew System::Windows::Forms::PictureBox());
 			this->myTextBox = (gcnew System::Windows::Forms::TextBox());
 			this->myButton = (gcnew System::Windows::Forms::Button());
+			this->btnReset = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->myPictureBox))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -93,7 +96,7 @@ namespace PowitanieOkienka {
 			// myPictureBox
 			// 
 			this->myPictureBox->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"myPictureBox.Image")));
-			this->myPictureBox->Location = System::Drawing::Point(108, 29);
+			this->myPictureBox->Location = System::Drawing::Point(108, 24);
 			this->myPictureBox->Name = L"myPictureBox";
 			this->myPictureBox->Size = System::Drawing::Size(125, 124);
 			this->myPictureBox->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -123,12 +126,27 @@ namespace PowitanieOkienka {
 			this->myButton->UseVisualStyleBackColor = true;
 			this->myButton->Click += gcnew System::EventHandler(this, &Okienko::myButton_Click);
 			// 
+			// btnReset
+			// 
+			this->btnReset->Cursor = System::Windows::Forms::Cursors::AppStarting;
+			this->btnReset->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9.75F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(238)));
+			this->btnReset->Location = System::Drawing::Point(108, 273);
+			this->btnReset->Name = L"btnReset";
+			this->btnReset->Size = System::Drawing::Size(125, 35);
+			this->btnReset->TabIndex = 4;
+			this->btnReset->Text = L"Reset";
+			this->btnReset->UseVisualStyleBackColor = true;
+			this->btnReset->Visible = false;
+			this->btnReset->Click += gcnew System::EventHandler(this, &Okienko::button1_Click);
+			// 
 			// Okienko
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackColor = System::Drawing::Color::Thistle;
-			this->ClientSize = System::Drawing::Size(340, 369);
+			this->ClientSize = System::Drawing::Size(340, 330);
+			this->Controls->Add(this->btnReset);
 			this->Controls->Add(this->myButton);
 			this->Controls->Add(this->myTextBox);
 			this->Controls->Add(this->myPictureBox);
@@ -153,8 +171,15 @@ private: System::Void etykieta_Click(System::Object^  sender, System::EventArgs^
 	}
 private: System::Void myButton_Click(System::Object^ sender, System::EventArgs^ e) {
 	myLabel->Text = "Hello "+ myTextBox->Text + " !"; //Sets label text to my text
+	myButton->Visible = false;
+	btnReset->Visible = true;
 }
 private: System::Void myTextBox_TextChanged(System::Object^ sender, System::EventArgs^ e) {
+}
+private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	myButton->Visible = true;
+	this->myLabel->Text = L"Just write sth!";
+	btnReset->Visible = false;
 }
 };
 }
